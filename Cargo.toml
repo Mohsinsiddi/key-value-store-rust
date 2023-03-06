@@ -1,0 +1,19 @@
+[package]
+name = "kvs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Md Mohsin Siddiqui <mdmohsinsiddiqui5@gmail.com>"]
+description = "A key-value store"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+assert_cmd = "0.11"
+predicates = "1.0.4"
+clap = "2.33.0"
+tempfile = "3.1.0"
+walkdir = "2.3.1"
+failure = "0.1.7"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = "0.4"
